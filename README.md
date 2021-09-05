@@ -30,7 +30,7 @@ A lesson on Callbacks, Promises, Async Await, Fetch
   - Hint: Remember that fetch already returns a promise.
   - If you need help with fetch you can read about it here:
   - (A basic fetch request is all you should need to use for this exercise)
-  - `https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch`
+  - <(https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch>
 
 ### 2. Get Bitcoin rates from returned JSON
   - Once you've received your JSON object from your
