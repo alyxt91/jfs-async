@@ -41,5 +41,19 @@ function getRate() {
     *
     *    *** Write code below here *** */
 
-    
+    fetch(api)
+    .then(response => {
+        return response.json();
+    })
+    .then(data => {
+        let usdRate = data.bpi.USD.rate
+        let gbpRate = data.bpi.GBP.rate
+        let eurRate = data.bpi.EUR.rate
+
+        usdRateDisplay.innerText = `$${usdRate}`;
+        gbpRateDisplay.innerText = `$${gbpRate}`;
+        eurRateDisplay.innerText = `$${eurRate}`;
+
+        console.log(data);
+    })
 }
